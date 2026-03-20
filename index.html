@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord - Bate-papo em grupo repleto de diversão e jogos</title>
+
+  <!-- Icone -->
+  <link rel="icon" type="image/x-icon" href="img/discord.svg">
+
+  <!-- Links -->
+  <link rel="stylesheet" href="style.css">
+  <script src="stylesheet.js" defer></script>
+
+  <!-- GSAP (animações nível empresa) -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<!-- ================= NAVBAR ================= -->
+<header id="topbar" class="navbar">
+  <img src="img/logo.svg" class="logo" alt="Discord Logo">
+
+  <nav class="nav-links">
+    <a href="#grupos">Grupos</a>
+    <a href="#canal-voz">Voz</a>
+    <a href="#membros">Membros</a>
+    <a href="#relaxando">Relaxando</a>
+  </nav>
+
+  <a class="btn magnetic">Entrar</a>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title wave-text">
+      <span>IMAGINE UM</span>
+      <span>LUGAR...</span>
+    </h1>
+
+    <p class="hero-desc">
+      Um espaço onde você pode pertencer, conversar e criar conexões reais.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="btn btn-white magnetic">Baixar para Windows</button>
+      <button class="btn btn-dark magnetic">Abrir no navegador</button>
+    </div>
+  </div>
+
+  <!-- fundo animado -->
+  <div class="hero-bg"></div>
+</section>
+
+<!-- ================= SEÇÕES ================= -->
+
+<!-- Grupo de Estudo -->
+<section id="grupos" class="section reveal">
+  <div class="container">
+    <img src="img/grupo-estudo.svg" alt="Grupo de estudo">
+    <div class="text">
+      <h2>Crie um espaço controlado por convite onde você se sinta em casa</h2>
+      <p>Os servidores Discord são organizados em canais com tópicos 
+    para vocês colaborarem, compartilharem ou simplesmente falarem 
+    do dia sem entupir um chat geral.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Canal de Voz-->
+<section id="canal-voz" class="section reveal">
+  <div class="container reverse">
+    <img src="img/canal-voz.svg" alt="Canal de voz">
+    <div class="text">
+      <h2>Aqui é fácil se encontrar</h2>
+      <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo 
+    servidor podem te ver e entrar imediatamente, sem nem ter 
+    que fazer a chamada.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Membros -->
+<section id="membros" class="section">
+  <div class="container reverse">
+    <img src="img/membros.svg" alt="Membros da comunidade">
+    <div class="text">
+      <h2>Para poucos e para muitos</h2>
+      <p>Organize qualquer comunidade com ferramentas de 
+    moderação e acesso personalizado a membros. Dê poderes 
+    especiais aos membros, monte canais privados e muito mais</p>
+    </div>
+  </div>
+</section>
+
+<!-- Relaxando -->
+<section id="relaxando" class="section">
+  <div class="container reverse">
+    <img src="img/relaxando.svg" alt="Usuários relaxando">
+    <div class ="text">
+      <h2>Tecnologia de conexão confiável</h2>
+      <p>Voz e vídeo de baixa latência, para você conversar como se 
+    estivesse na mesma sala. Dê um joinha por vídeo, veja amigos 
+    transmitirem a jogatina do dia ou junte uma galera pra desenhar 
+    na tela compartilhada.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEXTO ANIMADO ================= -->
+<section class="marquee">
+  <div class="marquee-track">
+    <span>CURTA ✦ CONVERSE ✦ JOGUE ✦ CRIE ✦</span>
+    <span>CURTA ✦ CONVERSE ✦ JOGUE ✦ CRIE ✦</span>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta">
+  <h2>Vamos começar sua jornada?</h2>
+  <button class="btn btn-primary">Baixar agora
+    <img src="img/icone-download.svg" alt="Baixar">
+  </button>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="container footer-grid">
+    <div>
+      <h3>Imagine um lugar</h3>
+    </div>
+
+    <div>
+      <h4>Produto</h4>
+      <a href="#">Baixar</a>
+      <a href="#">Nitro</a>
+    </div>
+
+    <div>
+      <h4>Empresa</h4>
+      <a href="#">Sobre</a>
+      <a href="#">Empregos</a>
+    </div>
+
+    <div>
+      <h4>Recursos</h4>
+      <a href="#">Suporte</a>
+      <a href="#">Segurança</a>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>
